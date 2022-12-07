@@ -1068,7 +1068,6 @@ for i in data:
                         if j[0]==target:
                             trace.append(x)
                             break
-                print(i,trace,pointer)
         continue
     pointer = structure
     for j in trace:
@@ -1078,7 +1077,6 @@ for i in data:
     else:
         cool = i.split(" ")
         pointer.append(int(cool[0]))
-    print(i,trace,pointer)
 
 
 goal = size(structure) - 40000000
